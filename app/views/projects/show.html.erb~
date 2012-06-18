@@ -1,0 +1,8 @@
+
+
+<h2>Name of the project is:
+<%=@project.name%>
+&nbsp;
+<%=link_to "Edit Project",edit_project_path(@project)%>
+
+ </h2>

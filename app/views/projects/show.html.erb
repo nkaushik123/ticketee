@@ -1,0 +1,9 @@
+
+
+<h2>Name of the project is:
+<%=@project.name%>
+&nbsp;
+<%=link_to "Edit Project",edit_project_path(@project)%>
+<%=link_to "Delete Project",@project,:method =>:delete, :confirm=>"Are u sure u want to delete the project?"%>
+
+ </h2>

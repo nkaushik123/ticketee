@@ -18,6 +18,8 @@ gem 'sqlite3'
 
 gem 'jquery-rails'
 
+#Dynamic_ form for validating forms
+gem 'dynamic_form'
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -34,7 +36,8 @@ end
 group :test do
  gem 'cucumber-rails'
  gem 'capybara'
- gem 'database_cleaner'	
+ gem 'database_cleaner'
+# gem 'factory_girl'	
 end
 
 
